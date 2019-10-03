@@ -1,0 +1,27 @@
+SOBRE ESTES DADOS:
+
+Extracted from Commercial Modular Aero-Propulsion System Simulation (C-MAPSS), which provides a transient simulation of a 
+large commercial turbofan engine with a realistic engine control system. Written in a combination of MATLAB and Simulink,
+the software supports easy access to health, control, and engine parameters through a graphical user interface. 
+Retaining the convenience and user-friendliness of the original, Version 2 includes three actuators (as compared to one) 
+and offers an improved controller as well as added actuator and sensor dynamics.
+Further software info available in: https://software.nasa.gov/software/LEW-18315-2
+
+----------------------
+
+
+REPOSITÓRIO DE DATASETS E ARTIGOS (NASA):
+
+https://ti.arc.nasa.gov/tech/dash/groups/pcoe/prognostic-data-repository/#turbofan
+
+----------------------
+
+ARTIGO: PROGNOSIS OF ROTATING MACHINERY USING ARTIFICIAL NEURAL NETWORK - A REVIEW:
+
+https://www.ijert.org/research/prognosis-of-rotating-machinery-using-artificial-neural-network-a-review-IJERTV2IS80485.pdf
+
+----------------------
+
+PLATAFORMA DE DATASETS
+
+https://toolbox.google.com/datasetsearch
