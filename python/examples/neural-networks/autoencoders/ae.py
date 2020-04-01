@@ -52,8 +52,7 @@ autoencoder.summary()
 
 # Compiling the model
 autoencoder.compile(optimizer='adam',
-                    loss='binary_crossentropy',
-                    metrics=['accuracy'])
+                    loss='binary_crossentropy')
 
 # Training the model
 autoencoder.fit(X_train, X_train,
@@ -67,7 +66,7 @@ compressed = encoder.predict(X_test)
 reconstructed = autoencoder.predict(X_test)
 
 # Plotting original, compressed and reconstructed images
-plt.figure(figsize=(40,4))
+plt.figure(figsize=(40, 4))
 for i in range(10):
     # Original
     ax = plt.subplot(3, 20, i + 1)

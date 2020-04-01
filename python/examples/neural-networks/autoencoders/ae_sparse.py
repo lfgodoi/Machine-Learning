@@ -66,12 +66,8 @@ autoencoder_v1.summary()
 autoencoder_v2.summary()
 
 # Compiling the models
-autoencoder_v1.compile(optimizer='adam',
-                       loss='binary_crossentropy',
-                       metrics=['accuracy'])
-autoencoder_v2.compile(optimizer='adam',
-                       loss='binary_crossentropy',
-                       metrics=['accuracy'])
+autoencoder_v1.compile(optimizer='adam', loss='binary_crossentropy')
+autoencoder_v2.compile(optimizer='adam', loss='binary_crossentropy')
 
 # Training the models
 autoencoder_v1.fit(X_train, X_train,
@@ -93,7 +89,7 @@ reconstructed_v2 = autoencoder_v2.predict(X_test)
 
 # Plotting original, compressed and reconstructed images for version 1
 print('\nSparse autoencoder regularized by L1/L2\n')
-plt.figure(figsize=(40,4))
+plt.figure(figsize=(40, 4))
 for i in range(10):
     # Original
     ax = plt.subplot(3, 20, i + 1)
